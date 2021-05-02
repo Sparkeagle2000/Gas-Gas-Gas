@@ -1,0 +1,1157 @@
+﻿Log file open, 05/02/21 15:31:47
+LogInit: Display: Running engine for game: CheckpointCourseCreator
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.216941
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.02-19.31.48:018][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.02-19.31.48:018][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.02-19.31.48:018][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+[2021.05.02-19.31.48:018][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.02-19.31.48:018][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.05.02-19.31.48:018][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
+[2021.05.02-19.31.48:018][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+[2021.05.02-19.31.48:018][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.02-19.31.48:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+[2021.05.02-19.31.48:019][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+[2021.05.02-19.31.48:021][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.02-19.31.48:022][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.02-19.31.48:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.02-19.31.48:024][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.02-19.31.48:025][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.02-19.31.48:025][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.02-19.31.48:025][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.02-19.31.48:025][  0]LogHAL: Display: Platform has ~ 32 GB [33779802112 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.02-19.31.48:026][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.02-19.31.48:026][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.02-19.31.48:026][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Scalability.ini]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.02-19.31.48:027][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.02-19.31.48:028][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.02-19.31.48:028][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.02-19.31.48:028][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.02-19.31.48:028][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.02-19.31.48:028][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Config/Windows/Engine.ini]
+[2021.05.02-19.31.48:028][  0]LogInit: Computer: CASEYLENOVO
+[2021.05.02-19.31.48:028][  0]LogInit: User: adamcaseystefanie
+[2021.05.02-19.31.48:028][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.05.02-19.31.48:028][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.02-19.31.48:028][  0]LogMemory: Memory total: Physical=31.5GB (32GB approx)
+[2021.05.02-19.31.48:028][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.02-19.31.48:028][  0]LogMemory: Process Physical Memory: 112.61 MB used, 112.62 MB peak
+[2021.05.02-19.31.48:028][  0]LogMemory: Process Virtual Memory: 109.10 MB used, 109.10 MB peak
+[2021.05.02-19.31.48:028][  0]LogMemory: Physical Memory: 9891.05 MB used,  22323.88 MB free, 32214.93 MB total
+[2021.05.02-19.31.48:028][  0]LogMemory: Virtual Memory: 5134.32 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.05.02-19.31.48:034][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.02-19.31.48:105][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.02-19.31.48:106][  0]LogInit: Using OS detected language (en-US).
+[2021.05.02-19.31.48:106][  0]LogInit: Using OS detected locale (en-US).
+[2021.05.02-19.31.48:113][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.05.02-19.31.48:313][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.02-19.31.48:344][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.02-19.31.48:344][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.02-19.31.48:739][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.02-19.31.48:739][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.02-19.31.48:739][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.02-19.31.48:857][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2021.05.02-19.31.48:857][  0]LogD3D11RHI:       2010/0/16107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.02-19.31.48:894][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2021.05.02-19.31.48:894][  0]LogD3D11RHI:       128/0/16107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.05.02-19.31.48:898][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.02-19.31.48:898][  0]LogD3D11RHI:       0/0/16107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.02-19.31.48:898][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.02-19.31.48:906][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.02-19.31.48:906][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2021.05.02-19.31.48:906][  0]LogWindows: EnumDisplayDevices:
+[2021.05.02-19.31.48:907][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2021.05.02-19.31.48:907][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.05.02-19.31.48:907][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.05.02-19.31.48:908][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.05.02-19.31.48:908][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2021.05.02-19.31.48:908][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.05.02-19.31.48:908][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.05.02-19.31.48:908][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2021.05.02-19.31.48:979][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.02-19.31.48:979][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.02-19.31.49:008][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.02-19.31.49:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.02-19.31.49:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.02-19.31.49:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.02-19.31.49:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.02-19.31.49:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.02-19.31.49:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.02-19.31.49:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.02-19.31.49:529][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.02-19.31.49:539][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.02-19.31.49:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.02-19.31.49:560][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.02-19.31.49:590][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.02-19.31.49:590][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.02-19.31.49:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.02-19.31.49:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.02-19.31.49:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.02-19.31.49:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.02-19.31.49:641][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.02-19.31.49:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.02-19.31.49:651][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.02-19.31.49:659][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.02-19.31.49:727][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Intermediate/Shaders/WorkingDirectory/5492/).
+[2021.05.02-19.31.49:727][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/adamcaseystefanie/AppData/Local/Temp/UnrealShaderWorkingDir/874C7A714BB38DC4AD9A9184A9806E17/'.
+[2021.05.02-19.31.49:727][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.02-19.31.49:727][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.02-19.31.49:727][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.02-19.31.50:584][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.02-19.31.50:634][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/adamcaseystefanie/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.02-19.31.50:634][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/adamcaseystefanie/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.02-19.31.50:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.02-19.31.50:634][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.02-19.31.50:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.02-19.31.50:634][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.02-19.31.50:648][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.02-19.31.50:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.02-19.31.50:648][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.02-19.31.50:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/adamcaseystefanie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.02-19.31.50:650][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.02-19.31.50:650][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.02-19.31.50:709][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.02-19.31.50:710][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.02-19.31.50:749][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2021.05.02-19.31.51:063][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.02-19.31.51:192][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.02-19.31.51:192][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.02-19.31.51:192][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.02-19.31.51:192][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.02-19.31.51:192][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.02-19.31.51:209][  0]LogNetVersion: CheckpointCourseCreator 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3040602061)
+[2021.05.02-19.31.51:821][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024660F87700), frame # 0
+[2021.05.02-19.31.51:821][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024660EB3740), frame # 0
+[2021.05.02-19.31.51:823][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024660F24800), frame # 0
+[2021.05.02-19.31.51:873][  0]LogPackageLocalizationCache: Processed 17 localized package path(s) for 1 prioritized culture(s) in 0.042984 seconds
+[2021.05.02-19.31.51:878][  0]LogUObjectArray: 15756 objects as part of root set at end of initial load.
+[2021.05.02-19.31.51:878][  0]LogUObjectAllocator: 3925280 out of 0 bytes used by permanent object pool.
+[2021.05.02-19.31.51:878][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.02-19.31.52:281][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.02-19.31.52:286][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.02-19.31.52:413][  0]SourceControl: Source control is disabled
+[2021.05.02-19.31.52:413][  0]SourceControl: Source control is disabled
+[2021.05.02-19.31.52:416][  0]SourceControl: Source control is disabled
+[2021.05.02-19.31.52:420][  0]SourceControl: Source control is disabled
+[2021.05.02-19.31.52:426][  0]SourceControl: Source control is disabled
+[2021.05.02-19.31.52:705][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.02-19.31.52:727][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.02-19.31.52:727][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.02-19.31.52:820][  0]LogEngine: Initializing Engine...
+[2021.05.02-19.31.52:821][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.02-19.31.52:822][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.05.02-19.31.52:952][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.02-19.31.52:962][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.02-19.31.52:962][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000246684E7C00), frame # 0
+[2021.05.02-19.31.52:962][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002466855D440), frame # 0
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.31.52:981][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.31.52:981][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.31.52:981][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.31.53:005][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.31.53:005][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.31.53:104][  0]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.31.53:106][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.31.53:109][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.31.53:109][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.31.53:110][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.31.53:111][  0]LogInit: FAudioDevice initialized.
+[2021.05.02-19.31.53:112][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.02-19.31.53:188][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/adamcaseystefanie/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.02-19.31.53:189][  0]LogInit: Texture streaming: Enabled
+[2021.05.02-19.31.53:207][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.02-19.31.53:207][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.02-19.31.53:221][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.02-19.31.53:260][  0]LogInit: Transaction tracking system initialized
+[2021.05.02-19.31.53:283][  0]BlueprintLog: New page: Editor Load
+[2021.05.02-19.31.53:360][  0]LocalizationService: Localization service is disabled
+[2021.05.02-19.31.53:596][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.02-19.31.53:596][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.02-19.31.53:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/' took 0.01s
+[2021.05.02-19.31.53:814][  0]SourceControl: Source control is disabled
+[2021.05.02-19.31.53:814][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.939
+[2021.05.02-19.31.53:814][  0]Cmd: MAP LOAD FILE="../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/CCC/Maps/Track_GreenhillCircuit.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.02-19.31.53:821][  0]LightingResults: New page: Lighting Build
+[2021.05.02-19.31.53:822][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.31.53:822][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.31.53:822][  0]MapCheck: New page: Map Check
+[2021.05.02-19.31.53:822][  0]LightingResults: New page: Lighting Build
+[2021.05.02-19.31.53:837][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000246684E7C00), frame # 0
+[2021.05.02-19.31.53:837][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002466855D440), frame # 0
+[2021.05.02-19.31.53:838][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.05.02-19.31.55:214][  0]LogAIModule: Creating AISystem for world Track_GreenhillCircuit
+[2021.05.02-19.31.55:214][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000246709A3E00), frame # 0
+[2021.05.02-19.31.55:214][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000246709ABB00), frame # 0
+[2021.05.02-19.31.55:329][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.02-19.31.55:355][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.05.02-19.31.55:355][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.02-19.31.55:355][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2021.05.02-19.31.55:355][  0]LogFileHelpers: Loading map 'Track_GreenhillCircuit' took 1.541
+[2021.05.02-19.31.55:358][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.483
+[2021.05.02-19.31.55:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.31.55:558][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.31.55:565][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.31.55:572][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.31.55:593][  0]LogCollectionManager: Loaded 0 collections in 0.002131 seconds
+[2021.05.02-19.31.55:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/Collections/' took 0.00s
+[2021.05.02-19.31.55:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/Developers/adamcaseystefanie/Collections/' took 0.00s
+[2021.05.02-19.31.55:642][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/Collections/' took 0.00s
+[2021.05.02-19.31.55:642][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3407 classes and 805 folders.
+[2021.05.02-19.31.55:661][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.02-19.31.55:884][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.02-19.31.55:895][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.05.02-19.31.56:070][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.02-19.31.56:073][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.02-19.31.56:089][  0]LogSlate: Took 0.001594 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.02-19.31.56:189][  0]LogRenderer: Reallocating scene render targets to support 952x432 Format 10 NumSamples 1 (Frame:1).
+[2021.05.02-19.31.56:358][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.02-19.31.56:358][  0]LogLoad: (Engine Initialization) Total time: 10.48 seconds
+[2021.05.02-19.31.56:358][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.02-19.31.56:423][  0]LogAssetRegistry: Asset discovery search completed in 5.6757 seconds
+[2021.05.02-19.31.56:427][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.05.02-19.31.56:427][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.02-19.31.56:439][  0]LogSlate: Took 0.001093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.02-19.31.56:474][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.02-19.32.26:400][239]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.32.26:417][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.05.02-19.32.26:418][239]Cmd: MAP LOAD FILE="../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.02-19.32.26:418][239]LightingResults: New page: Lighting Build
+[2021.05.02-19.32.26:418][239]LoadErrors: New page: Loading map: SurfingBirdLevel.umap
+[2021.05.02-19.32.26:455][239]LogWorld: UWorld::CleanupWorld for Track_GreenhillCircuit, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.32.26:455][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.32.26:455][239]MapCheck: New page: Map Check
+[2021.05.02-19.32.26:455][239]LightingResults: New page: Lighting Build
+[2021.05.02-19.32.26:468][239]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000246709A3E00), frame # 239
+[2021.05.02-19.32.26:468][239]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000246709ABB00), frame # 239
+[2021.05.02-19.32.26:469][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.05.02-19.32.26:580][239]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.02-19.32.26:580][239]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.32.26:580][239]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024670A35600), frame # 239
+[2021.05.02-19.32.26:580][239]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024607EA2D40), frame # 239
+[2021.05.02-19.32.26:602][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.05.02-19.32.26:620][239]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.02-19.32.26:621][239]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2021.05.02-19.32.26:621][239]LogFileHelpers: Loading map 'SurfingBirdLevel' took 0.202
+[2021.05.02-19.32.47:560][792]LogEditorViewport: Clicking on Actor (LMB): BP_CourseStart_C (BP_CourseStart)
+[2021.05.02-19.32.47:799][800]Cmd: DELETE
+[2021.05.02-19.32.47:799][800]Cmd: ACTOR DELETE
+[2021.05.02-19.32.47:818][800]LogEditorActor: Deleted Actor: BP_CourseStart_C
+[2021.05.02-19.32.47:829][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.05.02-19.32.47:831][800]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2021.05.02-19.32.48:528][841]LogEditorViewport: Clicking on Actor (LMB): BP_Course_C (BP_Course)
+[2021.05.02-19.32.48:700][848]Cmd: DELETE
+[2021.05.02-19.32.48:700][848]Cmd: ACTOR DELETE
+[2021.05.02-19.32.48:707][848]LogEditorActor: Deleted Actor: BP_Course_C
+[2021.05.02-19.32.48:717][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.02-19.32.48:719][848]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2021.05.02-19.32.54:692][193]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-19.32.54:716][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-19.32.54:717][193]PIE: New page: PIE session: SurfingBirdLevel (May 2, 2021, 11:32:54 AM)
+[2021.05.02-19.32.54:718][193]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.02-19.32.54:720][193]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.02-19.32.54:720][193]LogPlayLevel: Creating play world package: /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.32.54:784][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063641s)
+[2021.05.02-19.32.54:785][193]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.32.54:785][193]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024608DF7E00), frame # 1193
+[2021.05.02-19.32.54:785][193]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024607F2BB00), frame # 1193
+[2021.05.02-19.32.54:785][193]LogPlayLevel: PIE: World Init took: (0.001455s)
+[2021.05.02-19.32.54:785][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel to /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel (0.065326s)
+[2021.05.02-19.32.54:795][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.05.02-19.32.54:797][193]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.32.54:797][193]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.32.54:797][193]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.32.54:797][193]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.32.54:797][193]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.32.54:797][193]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.32.54:797][193]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.32.54:797][193]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.32.54:798][193]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.32.54:798][193]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.32.54:807][193]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.32.54:807][193]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.32.54:829][193]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.32.54:829][193]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.32.54:829][193]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.32.54:829][193]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.32.54:830][193]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.32.54:846][193]LogInit: FAudioDevice initialized.
+[2021.05.02-19.32.54:853][193]LogLoad: Game class is 'GM_VehicularGameMode_C'
+[2021.05.02-19.32.54:870][193]LogWorld: Bringing World /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel up for play (max tick rate 60) at 2021.05.02-15.32.54
+[2021.05.02-19.32.54:870][193]LogWorld: Bringing up level for play took: 0.010361
+[2021.05.02-19.32.54:871][193]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.05.02-19.32.54:875][193]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.05.02-19.32.54:895][193]PIE: Server logged in
+[2021.05.02-19.32.54:897][193]PIE: Play in editor total start time 0.187 seconds.
+[2021.05.02-19.32.57:389][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.32.57:389][286]LogWorld: BeginTearingDown for /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.32.57:389][286]LogWorld: UWorld::CleanupWorld for SurfingBirdLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.32.57:391][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.32.57:405][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-19.32.57:407][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.32.57:415][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.32.57:438][286]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024607F2BB00), frame # 1286
+[2021.05.02-19.32.57:438][286]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024608DF7E00), frame # 1286
+[2021.05.02-19.32.57:439][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.05.02-19.32.57:464][287]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.05.02-19.33.05:772][721]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.05.02-19.33.05:778][721]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.05.02-19.33.14:371][788]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.02-19.33.14:371][788]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.02-19.33.32:212][598]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-19.33.32:228][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-19.33.32:229][598]PIE: New page: PIE session: SurfingBirdLevel (May 2, 2021, 11:33:32 AM)
+[2021.05.02-19.33.32:229][598]LogPlayLevel: Creating play world package: /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.33.32:292][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063806s)
+[2021.05.02-19.33.32:293][598]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.33.32:293][598]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024601D11A00), frame # 2598
+[2021.05.02-19.33.32:293][598]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000246562C91C0), frame # 2598
+[2021.05.02-19.33.32:294][598]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2021.05.02-19.33.32:294][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel to /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel (0.065273s)
+[2021.05.02-19.33.32:304][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.05.02-19.33.32:310][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.33.32:310][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.33.32:310][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.33.32:310][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.33.32:310][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.33.32:310][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.33.32:310][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.33.32:310][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.33.32:311][598]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.33.32:311][598]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.33.32:319][598]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.33.32:320][598]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.33.32:338][598]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.33.32:339][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.33.32:339][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.33.32:339][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.33.32:339][598]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.33.32:353][598]LogInit: FAudioDevice initialized.
+[2021.05.02-19.33.32:361][598]LogLoad: Game class is 'GM_VehicularGameMode_C'
+[2021.05.02-19.33.32:368][598]LogWorld: Bringing World /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel up for play (max tick rate 60) at 2021.05.02-15.33.32
+[2021.05.02-19.33.32:368][598]LogWorld: Bringing up level for play took: 0.006255
+[2021.05.02-19.33.32:369][598]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.05.02-19.33.32:379][598]PIE: Server logged in
+[2021.05.02-19.33.32:380][598]PIE: Play in editor total start time 0.156 seconds.
+[2021.05.02-19.34.40:966][185]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.02-19.34.59:541][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.34.59:541][855]LogWorld: BeginTearingDown for /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.34.59:543][855]LogWorld: UWorld::CleanupWorld for SurfingBirdLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.34.59:545][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.34.59:572][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-19.34.59:577][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.34.59:589][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.34.59:615][855]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000246562C91C0), frame # 5855
+[2021.05.02-19.34.59:615][855]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024601D11A00), frame # 5855
+[2021.05.02-19.34.59:617][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.05.02-19.34.59:644][856]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.05.02-19.35.11:673][558]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2021.05.02-19.35.11:779][558]LogSlate: Took 0.001373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.02-19.35.13:811][667]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.05.02-19.35.48:227][601]Cmd: TRANSACTION UNDO
+[2021.05.02-19.35.48:227][601]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2021.05.02-19.35.48:250][601]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2021.05.02-19.35.48:251][601]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2021.05.02-19.35.48:253][601]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2021.05.02-19.35.48:255][601]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2021.05.02-19.35.48:257][601]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2021.05.02-19.35.48:260][601]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2021.05.02-19.35.48:799][615]Cmd: TRANSACTION UNDO
+[2021.05.02-19.35.48:799][615]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2021.05.02-19.35.48:841][615]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2021.05.02-19.35.48:845][615]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2021.05.02-19.35.48:847][615]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2021.05.02-19.35.48:849][615]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2021.05.02-19.35.48:853][615]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2021.05.02-19.35.48:855][615]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2021.05.02-19.35.49:845][662]Cmd: TRANSACTION UNDO
+[2021.05.02-19.35.49:845][662]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2021.05.02-19.35.49:885][662]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2021.05.02-19.35.49:887][662]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2021.05.02-19.35.49:889][662]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2021.05.02-19.35.49:892][662]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2021.05.02-19.36.26:302][701]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-19.36.26:323][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-19.36.26:323][701]PIE: New page: PIE session: SurfingBirdLevel (May 2, 2021, 11:36:26 AM)
+[2021.05.02-19.36.26:323][701]LogPlayLevel: Creating play world package: /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.36.26:394][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070581s)
+[2021.05.02-19.36.26:395][701]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.36.26:395][701]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024670A19A00), frame # 10701
+[2021.05.02-19.36.26:395][701]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024601F147C0), frame # 10701
+[2021.05.02-19.36.26:396][701]LogPlayLevel: PIE: World Init took: (0.001822s)
+[2021.05.02-19.36.26:396][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel to /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel (0.072767s)
+[2021.05.02-19.36.26:409][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.05.02-19.36.26:412][701]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.36.26:412][701]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.36.26:412][701]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.36.26:412][701]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.36.26:412][701]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.36.26:412][701]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.36.26:412][701]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.36.26:412][701]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.36.26:413][701]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.36.26:413][701]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.36.26:422][701]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.36.26:422][701]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.36.26:446][701]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.36.26:446][701]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.36.26:446][701]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.36.26:446][701]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.36.26:446][701]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.36.26:463][701]LogInit: FAudioDevice initialized.
+[2021.05.02-19.36.26:469][701]LogLoad: Game class is 'GM_VehicularGameMode_C'
+[2021.05.02-19.36.26:475][701]LogWorld: Bringing World /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel up for play (max tick rate 60) at 2021.05.02-15.36.26
+[2021.05.02-19.36.26:476][701]LogWorld: Bringing up level for play took: 0.005679
+[2021.05.02-19.36.26:476][701]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.05.02-19.36.26:489][701]PIE: Server logged in
+[2021.05.02-19.36.26:490][701]PIE: Play in editor total start time 0.172 seconds.
+[2021.05.02-19.36.30:341][853]Cmd: LevelEditor.ToggleImmersive
+[2021.05.02-19.36.30:485][854]LogRenderer: Reallocating scene render targets to support 1400x732 Format 10 NumSamples 1 (Frame:154).
+[2021.05.02-19.36.30:580][855]LogRenderer: Reallocating scene render targets to support 1540x828 Format 10 NumSamples 1 (Frame:156).
+[2021.05.02-19.38.46:562][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.38.46:562][678]LogWorld: BeginTearingDown for /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.38.46:563][678]LogWorld: UWorld::CleanupWorld for SurfingBirdLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.38.46:568][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.38.46:606][678]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-19.38.46:608][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.38.46:665][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.38.46:669][678]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024601F147C0), frame # 14678
+[2021.05.02-19.38.46:670][678]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024670A19A00), frame # 14678
+[2021.05.02-19.38.46:673][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.05.02-19.38.46:733][679]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.05.02-19.38.47:440][708]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.05.02-19.40.45:599][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.05.02-19.40.45:639][554]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2021.05.02-19.40.45:640][554]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2021.05.02-19.40.45:642][554]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2021.05.02-19.40.45:644][554]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2021.05.02-19.40.45:645][554]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2021.05.02-19.40.45:646][554]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2021.05.02-19.40.45:646][554]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2021.05.02-19.40.45:647][554]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2021.05.02-19.40.45:648][554]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2021.05.02-19.40.45:649][554]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2021.05.02-19.40.45:649][554]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2021.05.02-19.40.45:650][554]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2021.05.02-19.40.45:651][554]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2021.05.02-19.40.45:657][554]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2021.05.02-19.40.45:658][554]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2021.05.02-19.40.45:659][554]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2021.05.02-19.40.45:660][554]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2021.05.02-19.40.45:661][554]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2021.05.02-19.40.45:662][554]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2021.05.02-19.40.45:663][554]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 64X64)
+[2021.05.02-19.40.45:664][554]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 64X64)
+[2021.05.02-19.40.45:665][554]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 64X64)
+[2021.05.02-19.40.45:666][554]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 64X64)
+[2021.05.02-19.40.45:667][554]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 64X64)
+[2021.05.02-19.40.45:668][554]LogTexture: Display: Building textures: Texture2D_78 (BGRA8, 64X64)
+[2021.05.02-19.40.45:669][554]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 64X64)
+[2021.05.02-19.40.45:669][554]LogTexture: Display: Building textures: Texture2D_80 (BGRA8, 64X64)
+[2021.05.02-19.40.46:068][554]LogSavePackage: Moving '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/SurfingBirdLevel9518214B4505C19CA86509ABA81E38E6.tmp' to '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap'
+[2021.05.02-19.40.46:125][554]AssetCheck: New page: Asset Save: SurfingBirdLevel
+[2021.05.02-19.40.46:126][554]LogContentValidation: Display: Validating World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.41.06:055][669]Cmd: TRANSACTION UNDO
+[2021.05.02-19.41.06:055][669]LogEditorTransaction: Undo Modify Landscape Spline Control Point
+[2021.05.02-19.41.24:411][645]LogActorFactory: Actor Factory created SM_Ramp
+[2021.05.02-19.41.25:477][707]LogActorFactory: Actor Factory created SM_Ramp
+[2021.05.02-19.41.29:100][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Ramp4)
+[2021.05.02-19.42.09:154][201]LogActorFactory: Actor Factory created Cube
+[2021.05.02-19.42.10:366][272]LogActorFactory: Actor Factory created Cube
+[2021.05.02-19.42.23:951][ 39]Cmd: TRANSACTION UNDO
+[2021.05.02-19.42.23:951][ 39]LogEditorTransaction: Undo Scale Actors
+[2021.05.02-19.43.42:473][444]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-19.43.42:490][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-19.43.42:490][444]PIE: New page: PIE session: SurfingBirdLevel (May 2, 2021, 11:43:42 AM)
+[2021.05.02-19.43.42:490][444]LogPlayLevel: Creating play world package: /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.43.42:557][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066285s)
+[2021.05.02-19.43.42:558][444]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.43.42:558][444]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024602528800), frame # 22444
+[2021.05.02-19.43.42:558][444]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000246024F3D80), frame # 22444
+[2021.05.02-19.43.42:558][444]LogPlayLevel: PIE: World Init took: (0.001258s)
+[2021.05.02-19.43.42:558][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel to /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel (0.067692s)
+[2021.05.02-19.43.42:570][444]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.05.02-19.43.42:572][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.43.42:572][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.43.42:572][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.43.42:572][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.43.42:573][444]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.43.42:573][444]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.43.42:573][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.43.42:573][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.43.42:573][444]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.43.42:574][444]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.43.42:586][444]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.43.42:586][444]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.43.42:609][444]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.43.42:609][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.43.42:609][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.43.42:609][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.43.42:610][444]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.43.42:625][444]LogInit: FAudioDevice initialized.
+[2021.05.02-19.43.42:636][444]LogLoad: Game class is 'GM_VehicularGameMode_C'
+[2021.05.02-19.43.42:641][444]LogWorld: Bringing World /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel up for play (max tick rate 60) at 2021.05.02-15.43.42
+[2021.05.02-19.43.42:642][444]LogWorld: Bringing up level for play took: 0.004668
+[2021.05.02-19.43.42:642][444]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.05.02-19.43.42:653][444]PIE: Server logged in
+[2021.05.02-19.43.42:654][444]PIE: Play in editor total start time 0.168 seconds.
+[2021.05.02-19.45.19:884][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.45.19:884][129]LogWorld: BeginTearingDown for /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.45.19:884][129]LogWorld: UWorld::CleanupWorld for SurfingBirdLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.45.19:886][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.45.19:897][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-19.45.19:901][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.45.19:943][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.45.19:951][129]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000246024F3D80), frame # 26129
+[2021.05.02-19.45.19:951][129]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024602528800), frame # 26129
+[2021.05.02-19.45.19:954][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.05.02-19.45.20:001][130]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.05.02-19.45.25:190][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Ramp4)
+[2021.05.02-19.45.32:618][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.05.02-19.45.32:971][853]LogSavePackage: Moving '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/SurfingBirdLevelF158B5BF4E65AB9676411F91254087A3.tmp' to '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap'
+[2021.05.02-19.45.33:002][853]AssetCheck: New page: Asset Save: SurfingBirdLevel
+[2021.05.02-19.45.33:002][853]LogContentValidation: Display: Validating World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.45.33:906][899]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-19.45.33:933][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-19.45.33:933][899]PIE: New page: PIE session: SurfingBirdLevel (May 2, 2021, 11:45:33 AM)
+[2021.05.02-19.45.33:962][899]LogPlayLevel: Creating play world package: /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.45.34:053][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090013s)
+[2021.05.02-19.45.34:054][899]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.45.34:054][899]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002469411D200), frame # 26899
+[2021.05.02-19.45.34:054][899]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024608176700), frame # 26899
+[2021.05.02-19.45.34:054][899]LogPlayLevel: PIE: World Init took: (0.001503s)
+[2021.05.02-19.45.34:054][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel to /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel (0.091873s)
+[2021.05.02-19.45.34:068][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.05.02-19.45.34:069][899]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.45.34:069][899]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.45.34:069][899]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.45.34:069][899]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.45.34:069][899]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.45.34:069][899]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.45.34:069][899]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.45.34:069][899]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.45.34:070][899]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.45.34:070][899]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.45.34:079][899]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.45.34:079][899]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.45.34:101][899]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.45.34:101][899]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.45.34:101][899]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.45.34:101][899]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.45.34:102][899]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.45.34:118][899]LogInit: FAudioDevice initialized.
+[2021.05.02-19.45.34:127][899]LogLoad: Game class is 'GM_VehicularGameMode_C'
+[2021.05.02-19.45.34:135][899]LogWorld: Bringing World /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel up for play (max tick rate 60) at 2021.05.02-15.45.34
+[2021.05.02-19.45.34:135][899]LogWorld: Bringing up level for play took: 0.007373
+[2021.05.02-19.45.34:136][899]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.05.02-19.45.34:145][899]PIE: Server logged in
+[2021.05.02-19.45.34:146][899]PIE: Play in editor total start time 0.22 seconds.
+[2021.05.02-19.45.45:032][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.45.45:033][320]LogWorld: BeginTearingDown for /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.45.45:033][320]LogWorld: UWorld::CleanupWorld for SurfingBirdLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.45.45:035][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.45.45:048][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-19.45.45:050][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.45.45:062][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.45.45:082][320]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024608176700), frame # 27320
+[2021.05.02-19.45.45:082][320]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002469411D200), frame # 27320
+[2021.05.02-19.45.45:085][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.05.02-19.45.45:111][321]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.05.02-19.45.48:945][531]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-19.45.48:990][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-19.45.48:990][531]PIE: New page: PIE session: SurfingBirdLevel (May 2, 2021, 11:45:48 AM)
+[2021.05.02-19.45.49:023][531]LogPlayLevel: Creating play world package: /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.45.49:122][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099750s)
+[2021.05.02-19.45.49:123][531]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.45.49:124][531]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024692FFDE00), frame # 27531
+[2021.05.02-19.45.49:124][531]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024670DF7740), frame # 27531
+[2021.05.02-19.45.49:124][531]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2021.05.02-19.45.49:124][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel to /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel (0.101648s)
+[2021.05.02-19.45.49:134][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.05.02-19.45.49:136][531]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.45.49:136][531]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.45.49:136][531]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.45.49:136][531]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.45.49:136][531]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.45.49:136][531]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.45.49:136][531]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.45.49:136][531]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.45.49:137][531]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.45.49:137][531]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.45.49:146][531]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.45.49:146][531]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.45.49:167][531]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.45.49:168][531]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.45.49:168][531]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.45.49:168][531]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.45.49:168][531]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.45.49:186][531]LogInit: FAudioDevice initialized.
+[2021.05.02-19.45.49:196][531]LogLoad: Game class is 'GM_VehicularGameMode_C'
+[2021.05.02-19.45.49:202][531]LogWorld: Bringing World /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel up for play (max tick rate 60) at 2021.05.02-15.45.49
+[2021.05.02-19.45.49:202][531]LogWorld: Bringing up level for play took: 0.005036
+[2021.05.02-19.45.49:202][531]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.05.02-19.45.49:214][531]PIE: Server logged in
+[2021.05.02-19.45.49:214][531]PIE: Play in editor total start time 0.233 seconds.
+[2021.05.02-19.47.28:369][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.47.28:369][247]LogWorld: BeginTearingDown for /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.47.28:369][247]LogWorld: UWorld::CleanupWorld for SurfingBirdLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.47.28:372][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.47.28:379][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-19.47.28:381][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.47.28:396][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.47.28:422][247]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024670DF7740), frame # 31247
+[2021.05.02-19.47.28:422][247]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024692FFDE00), frame # 31247
+[2021.05.02-19.47.28:424][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.05.02-19.47.28:451][248]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.05.02-19.47.31:431][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.05.02-19.47.35:144][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.05.02-19.47.35:473][627]LogSavePackage: Moving '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/SurfingBirdLevel752BE0214C9DE0B3F8873FA726B0D5D7.tmp' to '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap'
+[2021.05.02-19.47.35:508][627]AssetCheck: New page: Asset Save: SurfingBirdLevel
+[2021.05.02-19.47.35:508][627]LogContentValidation: Display: Validating World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.47.58:466][923]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.05.02-19.47.59:732][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.05.02-19.48.00:075][994]LogSavePackage: Moving '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/SurfingBirdLevelD5AE7AC14042E61A8BF8388907DC8E40.tmp' to '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap'
+[2021.05.02-19.48.00:104][994]AssetCheck: New page: Asset Save: SurfingBirdLevel
+[2021.05.02-19.48.00:104][994]LogContentValidation: Display: Validating World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.48.08:681][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.05.02-19.48.09:013][114]LogSavePackage: Moving '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/SurfingBirdLevel081FD4224A145336C34003A485FDCB44.tmp' to '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap'
+[2021.05.02-19.48.09:042][114]AssetCheck: New page: Asset Save: SurfingBirdLevel
+[2021.05.02-19.48.09:042][114]LogContentValidation: Display: Validating World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.48.16:181][524]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.05.02-19.48.17:628][607]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.05.02-19.48.20:010][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.05.02-19.48.20:329][742]LogSavePackage: Moving '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/SurfingBirdLevelB5D40C1446FF29122B22BD80AB21B8AE.tmp' to '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap'
+[2021.05.02-19.48.20:359][742]AssetCheck: New page: Asset Save: SurfingBirdLevel
+[2021.05.02-19.48.20:359][742]LogContentValidation: Display: Validating World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.48.40:620][  3]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.02-19.48.42:529][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.05.02-19.48.56:186][828]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-19.48.56:206][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-19.48.56:206][828]PIE: New page: PIE session: SurfingBirdLevel (May 2, 2021, 11:48:56 AM)
+[2021.05.02-19.48.56:206][828]LogPlayLevel: Creating play world package: /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.48.56:278][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073137s)
+[2021.05.02-19.48.56:279][828]LogAIModule: Creating AISystem for world SurfingBirdLevel
+[2021.05.02-19.48.56:279][828]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002460271F000), frame # 33828
+[2021.05.02-19.48.56:279][828]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000246024A8B80), frame # 33828
+[2021.05.02-19.48.56:280][828]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2021.05.02-19.48.56:280][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel to /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel (0.074656s)
+[2021.05.02-19.48.56:290][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.05.02-19.48.56:292][828]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-19.48.56:292][828]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-19.48.56:292][828]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-19.48.56:292][828]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-19.48.56:292][828]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-19.48.56:292][828]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-19.48.56:292][828]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-19.48.56:292][828]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-19.48.56:293][828]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-19.48.56:293][828]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-19.48.56:303][828]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-19.48.56:303][828]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-19.48.56:326][828]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2021.05.02-19.48.56:326][828]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-19.48.56:326][828]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-19.48.56:326][828]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-19.48.56:327][828]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-19.48.56:343][828]LogInit: FAudioDevice initialized.
+[2021.05.02-19.48.56:353][828]LogLoad: Game class is 'GM_VehicularGameMode_C'
+[2021.05.02-19.48.56:358][828]LogWorld: Bringing World /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel.SurfingBirdLevel up for play (max tick rate 60) at 2021.05.02-15.48.56
+[2021.05.02-19.48.56:359][828]LogWorld: Bringing up level for play took: 0.005717
+[2021.05.02-19.48.56:359][828]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.05.02-19.48.56:370][828]PIE: Server logged in
+[2021.05.02-19.48.56:371][828]PIE: Play in editor total start time 0.171 seconds.
+[2021.05.02-19.48.58:235][896]Cmd: LevelEditor.ToggleImmersive
+[2021.05.02-19.50.49:399][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.50.49:399][221]LogWorld: BeginTearingDown for /Game/SurfingBirdLevel/UEDPIE_0_SurfingBirdLevel
+[2021.05.02-19.50.49:399][221]LogWorld: UWorld::CleanupWorld for SurfingBirdLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-19.50.49:400][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.50.49:433][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-19.50.49:435][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-19.50.49:443][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-19.50.49:471][221]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000246024A8B80), frame # 37221
+[2021.05.02-19.50.49:471][221]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002460271F000), frame # 37221
+[2021.05.02-19.50.49:472][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.05.02-19.50.49:487][222]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.05.02-19.50.59:723][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.05.02-19.51.00:049][448]LogSavePackage: Moving '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Saved/SurfingBirdLevel976181D348313B70F6A459872330364C.tmp' to '../../../../../../Users/adamcaseystefanie/Documents/GitHub/Gas-Gas-Gas/CheckpointCourseCreator/Content/SurfingBirdLevel/SurfingBirdLevel.umap'
+[2021.05.02-19.51.00:078][448]AssetCheck: New page: Asset Save: SurfingBirdLevel
+[2021.05.02-19.51.00:078][448]LogContentValidation: Display: Validating World /Game/SurfingBirdLevel/SurfingBirdLevel.SurfingBirdLevel
+[2021.05.02-19.51.06:478][814]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.05.02-19.51.07:613][814]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.136 s
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: === Handled ensure: ===
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: 
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: Ensure condition failed: FText::FindText(L"LandscapeEditor", Name, Result) [File:D:/Build/++UE4/Sync/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetails.cpp] [Line: 352]
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: 
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: Stack: 
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd3b9fa8d9 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd3b8c35c2 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd3b8bd1c5 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd3b89cb8d UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff4ea66 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff8571d UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff33c82 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff517be UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff85980 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff85a04 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd5d7ff84e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd56d8ac49 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.05.02-19.51.07:613][814]LogOutputDevice: Error: [Callstack] 0x00007ffd56d2f941 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6fe9f238 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff8ab51 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff91320 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff6a937 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd7000207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd7001b27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6ff92a95 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6fe62dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6fee69cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6fecf4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffd6fec2392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdb0947f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdb0935c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdb094a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdb09317d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdf9b25c1d USER32.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdf9b25612 USER32.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdb094bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ff604ab68c4 UE4Editor.exe!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ff604acba7c UE4Editor.exe!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ff604acbb5a UE4Editor.exe!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ff604ade31d UE4Editor.exe!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ff604ae145a UE4Editor.exe!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdf8df7c24 KERNEL32.DLL!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: [Callstack] 0x00007ffdf9f4d721 ntdll.dll!UnknownFunction []
+[2021.05.02-19.51.07:614][814]LogOutputDevice: Error: 
